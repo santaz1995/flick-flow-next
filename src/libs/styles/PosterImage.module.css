@@ -1,0 +1,11 @@
+.posterImage {
+    cursor: pointer;
+}
+.posterImagePlayIcon {
+    display: none !important;
+}
+
+.posterImage:hover + .posterImagePlayIcon {
+    display: block !important;
+    color: red;
+}
